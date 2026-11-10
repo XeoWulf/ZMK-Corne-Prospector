@@ -19,6 +19,6 @@ include:
   # Right keyboard half (Peripheral)
   - board: nice_nano_v2
     shield: corne_right
-  # Prospector Dongle (Central) using Seeeduino XIAO BLE
-  - board: seeeduino_xiao_ble
+  # Prospector Dongle (Central) using Seeeduino XIAO BLE with ZMK variant format
+  - board: xiao_ble/nrf52840
     shield: corne_dongle prospector_adapter
